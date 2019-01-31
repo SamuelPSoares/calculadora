@@ -4,7 +4,7 @@ function operacaoMatematica (codigo)
 {
     var num1 = document.getElementById('primeiroNumero').value
     var num2 = document.getElementById('segundoNumero').value
-
+    
     var resultadoElement = document.getElementById('resultado')
 
     if (isNaN(num1) && isNaN(num2)) {
@@ -16,7 +16,8 @@ function operacaoMatematica (codigo)
 
     if(codigo == 1)
     {
-        //
+     resultado = num1 + num2
+     
     }
     else if(codigo == 2)
     {
