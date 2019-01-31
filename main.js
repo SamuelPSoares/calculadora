@@ -24,8 +24,15 @@ function operacaoMatematica (codigo)
         //
     }
     else if(codigo == 3)
-    {
-        //
+    {   
+        if(num2 == 0)
+        {
+            alert("Tira esse Zero dae");
+            return;
+        }
+        
+        resultado = num1/num2;
+
     }
     else if(codigo == 4)
     {
