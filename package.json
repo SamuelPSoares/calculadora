@@ -1,0 +1,23 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp copy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelPSoares/calculadora.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelPSoares/calculadora/issues"
+  },
+  "homepage": "https://github.com/SamuelPSoares/calculadora#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
