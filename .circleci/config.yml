@@ -22,7 +22,11 @@ jobs:
       - run: # run build
           name: build
           command: npm run-script build
+      - run:
+            name: criando pasta
+            command: |
+                 mkdir /public;   
       - store_artifacts:
-        path: /public
-        destination: arttifacts_file
-        
+            path: /public
+            destination: arttifacts_file
+
